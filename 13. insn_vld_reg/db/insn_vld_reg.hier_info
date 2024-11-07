@@ -1,7 +1,0 @@
-|insn_vld_reg
-i_clk => o_insn_vld~reg0.CLK
-i_rst => o_insn_vld.OUTPUTSELECT
-i_insn_vld => o_insn_vld.DATAB
-o_insn_vld <= o_insn_vld~reg0.DB_MAX_OUTPUT_PORT_TYPE
-
-
