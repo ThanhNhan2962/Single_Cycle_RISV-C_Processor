@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Fri Nov 08 00:17:50 2024
+Quartus II 64-Bit Version : 13.0.1 Build 232 06/12/2013 SP 1 SJ Web Edition
+Revision Name : lsu
+Top-level Entity Name : lsu
+Family : Cyclone II
+Total logic elements : 57,585
+    Total combinational functions : 23,789
+    Dedicated logic registers : 33,864
+Total registers : 33864
+Total pins : 287
+Total virtual pins : 0
+Total memory bits : 0
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0

@@ -1,0 +1,969 @@
+|brc
+i_rs1_data[0] => i_rs1_data[0].IN1
+i_rs1_data[1] => i_rs1_data[1].IN1
+i_rs1_data[2] => i_rs1_data[2].IN1
+i_rs1_data[3] => i_rs1_data[3].IN1
+i_rs1_data[4] => i_rs1_data[4].IN1
+i_rs1_data[5] => i_rs1_data[5].IN1
+i_rs1_data[6] => i_rs1_data[6].IN1
+i_rs1_data[7] => i_rs1_data[7].IN1
+i_rs1_data[8] => i_rs1_data[8].IN1
+i_rs1_data[9] => i_rs1_data[9].IN1
+i_rs1_data[10] => i_rs1_data[10].IN1
+i_rs1_data[11] => i_rs1_data[11].IN1
+i_rs1_data[12] => i_rs1_data[12].IN1
+i_rs1_data[13] => i_rs1_data[13].IN1
+i_rs1_data[14] => i_rs1_data[14].IN1
+i_rs1_data[15] => i_rs1_data[15].IN1
+i_rs1_data[16] => i_rs1_data[16].IN1
+i_rs1_data[17] => i_rs1_data[17].IN1
+i_rs1_data[18] => i_rs1_data[18].IN1
+i_rs1_data[19] => i_rs1_data[19].IN1
+i_rs1_data[20] => i_rs1_data[20].IN1
+i_rs1_data[21] => i_rs1_data[21].IN1
+i_rs1_data[22] => i_rs1_data[22].IN1
+i_rs1_data[23] => i_rs1_data[23].IN1
+i_rs1_data[24] => i_rs1_data[24].IN1
+i_rs1_data[25] => i_rs1_data[25].IN1
+i_rs1_data[26] => i_rs1_data[26].IN1
+i_rs1_data[27] => i_rs1_data[27].IN1
+i_rs1_data[28] => i_rs1_data[28].IN1
+i_rs1_data[29] => i_rs1_data[29].IN1
+i_rs1_data[30] => i_rs1_data[30].IN1
+i_rs1_data[31] => i_rs1_data[31].IN1
+i_rs2_data[0] => i_rs2_data[0].IN1
+i_rs2_data[1] => i_rs2_data[1].IN1
+i_rs2_data[2] => i_rs2_data[2].IN1
+i_rs2_data[3] => i_rs2_data[3].IN1
+i_rs2_data[4] => i_rs2_data[4].IN1
+i_rs2_data[5] => i_rs2_data[5].IN1
+i_rs2_data[6] => i_rs2_data[6].IN1
+i_rs2_data[7] => i_rs2_data[7].IN1
+i_rs2_data[8] => i_rs2_data[8].IN1
+i_rs2_data[9] => i_rs2_data[9].IN1
+i_rs2_data[10] => i_rs2_data[10].IN1
+i_rs2_data[11] => i_rs2_data[11].IN1
+i_rs2_data[12] => i_rs2_data[12].IN1
+i_rs2_data[13] => i_rs2_data[13].IN1
+i_rs2_data[14] => i_rs2_data[14].IN1
+i_rs2_data[15] => i_rs2_data[15].IN1
+i_rs2_data[16] => i_rs2_data[16].IN1
+i_rs2_data[17] => i_rs2_data[17].IN1
+i_rs2_data[18] => i_rs2_data[18].IN1
+i_rs2_data[19] => i_rs2_data[19].IN1
+i_rs2_data[20] => i_rs2_data[20].IN1
+i_rs2_data[21] => i_rs2_data[21].IN1
+i_rs2_data[22] => i_rs2_data[22].IN1
+i_rs2_data[23] => i_rs2_data[23].IN1
+i_rs2_data[24] => i_rs2_data[24].IN1
+i_rs2_data[25] => i_rs2_data[25].IN1
+i_rs2_data[26] => i_rs2_data[26].IN1
+i_rs2_data[27] => i_rs2_data[27].IN1
+i_rs2_data[28] => i_rs2_data[28].IN1
+i_rs2_data[29] => i_rs2_data[29].IN1
+i_rs2_data[30] => i_rs2_data[30].IN1
+i_rs2_data[31] => i_rs2_data[31].IN1
+i_br_un => o_br_less.IN1
+i_br_un => o_br_less.OUTPUTSELECT
+o_br_less <= o_br_less$latch.DB_MAX_OUTPUT_PORT_TYPE
+o_br_equal <= unsigned_32bit_comparator:u1.a_eq_b
+
+
+|brc|unsigned_32bit_comparator:u1
+i_a[0] => i_a[0].IN1
+i_a[1] => i_a[1].IN1
+i_a[2] => i_a[2].IN1
+i_a[3] => i_a[3].IN1
+i_a[4] => i_a[4].IN1
+i_a[5] => i_a[5].IN1
+i_a[6] => i_a[6].IN1
+i_a[7] => i_a[7].IN1
+i_a[8] => i_a[8].IN1
+i_a[9] => i_a[9].IN1
+i_a[10] => i_a[10].IN1
+i_a[11] => i_a[11].IN1
+i_a[12] => i_a[12].IN1
+i_a[13] => i_a[13].IN1
+i_a[14] => i_a[14].IN1
+i_a[15] => i_a[15].IN1
+i_a[16] => i_a[16].IN1
+i_a[17] => i_a[17].IN1
+i_a[18] => i_a[18].IN1
+i_a[19] => i_a[19].IN1
+i_a[20] => i_a[20].IN1
+i_a[21] => i_a[21].IN1
+i_a[22] => i_a[22].IN1
+i_a[23] => i_a[23].IN1
+i_a[24] => i_a[24].IN1
+i_a[25] => i_a[25].IN1
+i_a[26] => i_a[26].IN1
+i_a[27] => i_a[27].IN1
+i_a[28] => i_a[28].IN1
+i_a[29] => i_a[29].IN1
+i_a[30] => i_a[30].IN1
+i_a[31] => i_a[31].IN1
+i_b[0] => i_b[0].IN1
+i_b[1] => i_b[1].IN1
+i_b[2] => i_b[2].IN1
+i_b[3] => i_b[3].IN1
+i_b[4] => i_b[4].IN1
+i_b[5] => i_b[5].IN1
+i_b[6] => i_b[6].IN1
+i_b[7] => i_b[7].IN1
+i_b[8] => i_b[8].IN1
+i_b[9] => i_b[9].IN1
+i_b[10] => i_b[10].IN1
+i_b[11] => i_b[11].IN1
+i_b[12] => i_b[12].IN1
+i_b[13] => i_b[13].IN1
+i_b[14] => i_b[14].IN1
+i_b[15] => i_b[15].IN1
+i_b[16] => i_b[16].IN1
+i_b[17] => i_b[17].IN1
+i_b[18] => i_b[18].IN1
+i_b[19] => i_b[19].IN1
+i_b[20] => i_b[20].IN1
+i_b[21] => i_b[21].IN1
+i_b[22] => i_b[22].IN1
+i_b[23] => i_b[23].IN1
+i_b[24] => i_b[24].IN1
+i_b[25] => i_b[25].IN1
+i_b[26] => i_b[26].IN1
+i_b[27] => i_b[27].IN1
+i_b[28] => i_b[28].IN1
+i_b[29] => i_b[29].IN1
+i_b[30] => i_b[30].IN1
+i_b[31] => i_b[31].IN1
+i_a_gt_b => i_a_gt_b.IN1
+i_a_eq_b => i_a_eq_b.IN1
+i_a_lt_b => i_a_lt_b.IN1
+a_gt_b <= unsigned_4bit_comparator_w_prev:comp_4bit_31_28.o_a_gt_b
+a_eq_b <= unsigned_4bit_comparator_w_prev:comp_4bit_31_28.o_a_eq_b
+a_lt_b <= unsigned_4bit_comparator_w_prev:comp_4bit_31_28.o_a_lt_b
+
+
+|brc|unsigned_32bit_comparator:u1|unsigned_4bit_comparator_w_prev:comp_4bit_03_00
+i_a[0] => i_a[0].IN1
+i_a[1] => i_a[1].IN1
+i_a[2] => i_a[2].IN1
+i_a[3] => i_a[3].IN1
+i_b[0] => i_b[0].IN1
+i_b[1] => i_b[1].IN1
+i_b[2] => i_b[2].IN1
+i_b[3] => i_b[3].IN1
+i_a_gt_b => o_a_gt_b.IN1
+i_a_eq_b => o_a_eq_b.IN1
+i_a_lt_b => o_a_lt_b.IN1
+o_a_gt_b <= o_a_gt_b.DB_MAX_OUTPUT_PORT_TYPE
+o_a_eq_b <= o_a_eq_b.DB_MAX_OUTPUT_PORT_TYPE
+o_a_lt_b <= o_a_lt_b.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|brc|unsigned_32bit_comparator:u1|unsigned_4bit_comparator_w_prev:comp_4bit_03_00|unsigned_4bit_comparator:comp
+i_a[0] => xor_invert[0].IN0
+i_a[0] => a_gt_b.IN1
+i_a[0] => a_lt_b.IN1
+i_a[1] => xor_invert[1].IN0
+i_a[1] => a_gt_b.IN1
+i_a[1] => a_lt_b.IN1
+i_a[2] => xor_invert[2].IN0
+i_a[2] => a_gt_b.IN1
+i_a[2] => a_lt_b.IN1
+i_a[3] => xor_invert[3].IN0
+i_a[3] => a_gt_b.IN0
+i_a[3] => a_lt_b.IN0
+i_b[0] => xor_invert[0].IN1
+i_b[0] => a_lt_b.IN1
+i_b[0] => a_gt_b.IN1
+i_b[1] => xor_invert[1].IN1
+i_b[1] => a_lt_b.IN1
+i_b[1] => a_gt_b.IN1
+i_b[2] => xor_invert[2].IN1
+i_b[2] => a_lt_b.IN1
+i_b[2] => a_gt_b.IN1
+i_b[3] => xor_invert[3].IN1
+i_b[3] => a_lt_b.IN1
+i_b[3] => a_gt_b.IN1
+a_gt_b <= a_gt_b.DB_MAX_OUTPUT_PORT_TYPE
+a_eq_b <= a_eq_b.DB_MAX_OUTPUT_PORT_TYPE
+a_lt_b <= a_lt_b.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|brc|unsigned_32bit_comparator:u1|unsigned_4bit_comparator_w_prev:comp_4bit_07_04
+i_a[0] => i_a[0].IN1
+i_a[1] => i_a[1].IN1
+i_a[2] => i_a[2].IN1
+i_a[3] => i_a[3].IN1
+i_b[0] => i_b[0].IN1
+i_b[1] => i_b[1].IN1
+i_b[2] => i_b[2].IN1
+i_b[3] => i_b[3].IN1
+i_a_gt_b => o_a_gt_b.IN1
+i_a_eq_b => o_a_eq_b.IN1
+i_a_lt_b => o_a_lt_b.IN1
+o_a_gt_b <= o_a_gt_b.DB_MAX_OUTPUT_PORT_TYPE
+o_a_eq_b <= o_a_eq_b.DB_MAX_OUTPUT_PORT_TYPE
+o_a_lt_b <= o_a_lt_b.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|brc|unsigned_32bit_comparator:u1|unsigned_4bit_comparator_w_prev:comp_4bit_07_04|unsigned_4bit_comparator:comp
+i_a[0] => xor_invert[0].IN0
+i_a[0] => a_gt_b.IN1
+i_a[0] => a_lt_b.IN1
+i_a[1] => xor_invert[1].IN0
+i_a[1] => a_gt_b.IN1
+i_a[1] => a_lt_b.IN1
+i_a[2] => xor_invert[2].IN0
+i_a[2] => a_gt_b.IN1
+i_a[2] => a_lt_b.IN1
+i_a[3] => xor_invert[3].IN0
+i_a[3] => a_gt_b.IN0
+i_a[3] => a_lt_b.IN0
+i_b[0] => xor_invert[0].IN1
+i_b[0] => a_lt_b.IN1
+i_b[0] => a_gt_b.IN1
+i_b[1] => xor_invert[1].IN1
+i_b[1] => a_lt_b.IN1
+i_b[1] => a_gt_b.IN1
+i_b[2] => xor_invert[2].IN1
+i_b[2] => a_lt_b.IN1
+i_b[2] => a_gt_b.IN1
+i_b[3] => xor_invert[3].IN1
+i_b[3] => a_lt_b.IN1
+i_b[3] => a_gt_b.IN1
+a_gt_b <= a_gt_b.DB_MAX_OUTPUT_PORT_TYPE
+a_eq_b <= a_eq_b.DB_MAX_OUTPUT_PORT_TYPE
+a_lt_b <= a_lt_b.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|brc|unsigned_32bit_comparator:u1|unsigned_4bit_comparator_w_prev:comp_4bit_11_08
+i_a[0] => i_a[0].IN1
+i_a[1] => i_a[1].IN1
+i_a[2] => i_a[2].IN1
+i_a[3] => i_a[3].IN1
+i_b[0] => i_b[0].IN1
+i_b[1] => i_b[1].IN1
+i_b[2] => i_b[2].IN1
+i_b[3] => i_b[3].IN1
+i_a_gt_b => o_a_gt_b.IN1
+i_a_eq_b => o_a_eq_b.IN1
+i_a_lt_b => o_a_lt_b.IN1
+o_a_gt_b <= o_a_gt_b.DB_MAX_OUTPUT_PORT_TYPE
+o_a_eq_b <= o_a_eq_b.DB_MAX_OUTPUT_PORT_TYPE
+o_a_lt_b <= o_a_lt_b.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|brc|unsigned_32bit_comparator:u1|unsigned_4bit_comparator_w_prev:comp_4bit_11_08|unsigned_4bit_comparator:comp
+i_a[0] => xor_invert[0].IN0
+i_a[0] => a_gt_b.IN1
+i_a[0] => a_lt_b.IN1
+i_a[1] => xor_invert[1].IN0
+i_a[1] => a_gt_b.IN1
+i_a[1] => a_lt_b.IN1
+i_a[2] => xor_invert[2].IN0
+i_a[2] => a_gt_b.IN1
+i_a[2] => a_lt_b.IN1
+i_a[3] => xor_invert[3].IN0
+i_a[3] => a_gt_b.IN0
+i_a[3] => a_lt_b.IN0
+i_b[0] => xor_invert[0].IN1
+i_b[0] => a_lt_b.IN1
+i_b[0] => a_gt_b.IN1
+i_b[1] => xor_invert[1].IN1
+i_b[1] => a_lt_b.IN1
+i_b[1] => a_gt_b.IN1
+i_b[2] => xor_invert[2].IN1
+i_b[2] => a_lt_b.IN1
+i_b[2] => a_gt_b.IN1
+i_b[3] => xor_invert[3].IN1
+i_b[3] => a_lt_b.IN1
+i_b[3] => a_gt_b.IN1
+a_gt_b <= a_gt_b.DB_MAX_OUTPUT_PORT_TYPE
+a_eq_b <= a_eq_b.DB_MAX_OUTPUT_PORT_TYPE
+a_lt_b <= a_lt_b.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|brc|unsigned_32bit_comparator:u1|unsigned_4bit_comparator_w_prev:comp_4bit_15_12
+i_a[0] => i_a[0].IN1
+i_a[1] => i_a[1].IN1
+i_a[2] => i_a[2].IN1
+i_a[3] => i_a[3].IN1
+i_b[0] => i_b[0].IN1
+i_b[1] => i_b[1].IN1
+i_b[2] => i_b[2].IN1
+i_b[3] => i_b[3].IN1
+i_a_gt_b => o_a_gt_b.IN1
+i_a_eq_b => o_a_eq_b.IN1
+i_a_lt_b => o_a_lt_b.IN1
+o_a_gt_b <= o_a_gt_b.DB_MAX_OUTPUT_PORT_TYPE
+o_a_eq_b <= o_a_eq_b.DB_MAX_OUTPUT_PORT_TYPE
+o_a_lt_b <= o_a_lt_b.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|brc|unsigned_32bit_comparator:u1|unsigned_4bit_comparator_w_prev:comp_4bit_15_12|unsigned_4bit_comparator:comp
+i_a[0] => xor_invert[0].IN0
+i_a[0] => a_gt_b.IN1
+i_a[0] => a_lt_b.IN1
+i_a[1] => xor_invert[1].IN0
+i_a[1] => a_gt_b.IN1
+i_a[1] => a_lt_b.IN1
+i_a[2] => xor_invert[2].IN0
+i_a[2] => a_gt_b.IN1
+i_a[2] => a_lt_b.IN1
+i_a[3] => xor_invert[3].IN0
+i_a[3] => a_gt_b.IN0
+i_a[3] => a_lt_b.IN0
+i_b[0] => xor_invert[0].IN1
+i_b[0] => a_lt_b.IN1
+i_b[0] => a_gt_b.IN1
+i_b[1] => xor_invert[1].IN1
+i_b[1] => a_lt_b.IN1
+i_b[1] => a_gt_b.IN1
+i_b[2] => xor_invert[2].IN1
+i_b[2] => a_lt_b.IN1
+i_b[2] => a_gt_b.IN1
+i_b[3] => xor_invert[3].IN1
+i_b[3] => a_lt_b.IN1
+i_b[3] => a_gt_b.IN1
+a_gt_b <= a_gt_b.DB_MAX_OUTPUT_PORT_TYPE
+a_eq_b <= a_eq_b.DB_MAX_OUTPUT_PORT_TYPE
+a_lt_b <= a_lt_b.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|brc|unsigned_32bit_comparator:u1|unsigned_4bit_comparator_w_prev:comp_4bit_19_16
+i_a[0] => i_a[0].IN1
+i_a[1] => i_a[1].IN1
+i_a[2] => i_a[2].IN1
+i_a[3] => i_a[3].IN1
+i_b[0] => i_b[0].IN1
+i_b[1] => i_b[1].IN1
+i_b[2] => i_b[2].IN1
+i_b[3] => i_b[3].IN1
+i_a_gt_b => o_a_gt_b.IN1
+i_a_eq_b => o_a_eq_b.IN1
+i_a_lt_b => o_a_lt_b.IN1
+o_a_gt_b <= o_a_gt_b.DB_MAX_OUTPUT_PORT_TYPE
+o_a_eq_b <= o_a_eq_b.DB_MAX_OUTPUT_PORT_TYPE
+o_a_lt_b <= o_a_lt_b.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|brc|unsigned_32bit_comparator:u1|unsigned_4bit_comparator_w_prev:comp_4bit_19_16|unsigned_4bit_comparator:comp
+i_a[0] => xor_invert[0].IN0
+i_a[0] => a_gt_b.IN1
+i_a[0] => a_lt_b.IN1
+i_a[1] => xor_invert[1].IN0
+i_a[1] => a_gt_b.IN1
+i_a[1] => a_lt_b.IN1
+i_a[2] => xor_invert[2].IN0
+i_a[2] => a_gt_b.IN1
+i_a[2] => a_lt_b.IN1
+i_a[3] => xor_invert[3].IN0
+i_a[3] => a_gt_b.IN0
+i_a[3] => a_lt_b.IN0
+i_b[0] => xor_invert[0].IN1
+i_b[0] => a_lt_b.IN1
+i_b[0] => a_gt_b.IN1
+i_b[1] => xor_invert[1].IN1
+i_b[1] => a_lt_b.IN1
+i_b[1] => a_gt_b.IN1
+i_b[2] => xor_invert[2].IN1
+i_b[2] => a_lt_b.IN1
+i_b[2] => a_gt_b.IN1
+i_b[3] => xor_invert[3].IN1
+i_b[3] => a_lt_b.IN1
+i_b[3] => a_gt_b.IN1
+a_gt_b <= a_gt_b.DB_MAX_OUTPUT_PORT_TYPE
+a_eq_b <= a_eq_b.DB_MAX_OUTPUT_PORT_TYPE
+a_lt_b <= a_lt_b.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|brc|unsigned_32bit_comparator:u1|unsigned_4bit_comparator_w_prev:comp_4bit_23_20
+i_a[0] => i_a[0].IN1
+i_a[1] => i_a[1].IN1
+i_a[2] => i_a[2].IN1
+i_a[3] => i_a[3].IN1
+i_b[0] => i_b[0].IN1
+i_b[1] => i_b[1].IN1
+i_b[2] => i_b[2].IN1
+i_b[3] => i_b[3].IN1
+i_a_gt_b => o_a_gt_b.IN1
+i_a_eq_b => o_a_eq_b.IN1
+i_a_lt_b => o_a_lt_b.IN1
+o_a_gt_b <= o_a_gt_b.DB_MAX_OUTPUT_PORT_TYPE
+o_a_eq_b <= o_a_eq_b.DB_MAX_OUTPUT_PORT_TYPE
+o_a_lt_b <= o_a_lt_b.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|brc|unsigned_32bit_comparator:u1|unsigned_4bit_comparator_w_prev:comp_4bit_23_20|unsigned_4bit_comparator:comp
+i_a[0] => xor_invert[0].IN0
+i_a[0] => a_gt_b.IN1
+i_a[0] => a_lt_b.IN1
+i_a[1] => xor_invert[1].IN0
+i_a[1] => a_gt_b.IN1
+i_a[1] => a_lt_b.IN1
+i_a[2] => xor_invert[2].IN0
+i_a[2] => a_gt_b.IN1
+i_a[2] => a_lt_b.IN1
+i_a[3] => xor_invert[3].IN0
+i_a[3] => a_gt_b.IN0
+i_a[3] => a_lt_b.IN0
+i_b[0] => xor_invert[0].IN1
+i_b[0] => a_lt_b.IN1
+i_b[0] => a_gt_b.IN1
+i_b[1] => xor_invert[1].IN1
+i_b[1] => a_lt_b.IN1
+i_b[1] => a_gt_b.IN1
+i_b[2] => xor_invert[2].IN1
+i_b[2] => a_lt_b.IN1
+i_b[2] => a_gt_b.IN1
+i_b[3] => xor_invert[3].IN1
+i_b[3] => a_lt_b.IN1
+i_b[3] => a_gt_b.IN1
+a_gt_b <= a_gt_b.DB_MAX_OUTPUT_PORT_TYPE
+a_eq_b <= a_eq_b.DB_MAX_OUTPUT_PORT_TYPE
+a_lt_b <= a_lt_b.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|brc|unsigned_32bit_comparator:u1|unsigned_4bit_comparator_w_prev:comp_4bit_27_24
+i_a[0] => i_a[0].IN1
+i_a[1] => i_a[1].IN1
+i_a[2] => i_a[2].IN1
+i_a[3] => i_a[3].IN1
+i_b[0] => i_b[0].IN1
+i_b[1] => i_b[1].IN1
+i_b[2] => i_b[2].IN1
+i_b[3] => i_b[3].IN1
+i_a_gt_b => o_a_gt_b.IN1
+i_a_eq_b => o_a_eq_b.IN1
+i_a_lt_b => o_a_lt_b.IN1
+o_a_gt_b <= o_a_gt_b.DB_MAX_OUTPUT_PORT_TYPE
+o_a_eq_b <= o_a_eq_b.DB_MAX_OUTPUT_PORT_TYPE
+o_a_lt_b <= o_a_lt_b.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|brc|unsigned_32bit_comparator:u1|unsigned_4bit_comparator_w_prev:comp_4bit_27_24|unsigned_4bit_comparator:comp
+i_a[0] => xor_invert[0].IN0
+i_a[0] => a_gt_b.IN1
+i_a[0] => a_lt_b.IN1
+i_a[1] => xor_invert[1].IN0
+i_a[1] => a_gt_b.IN1
+i_a[1] => a_lt_b.IN1
+i_a[2] => xor_invert[2].IN0
+i_a[2] => a_gt_b.IN1
+i_a[2] => a_lt_b.IN1
+i_a[3] => xor_invert[3].IN0
+i_a[3] => a_gt_b.IN0
+i_a[3] => a_lt_b.IN0
+i_b[0] => xor_invert[0].IN1
+i_b[0] => a_lt_b.IN1
+i_b[0] => a_gt_b.IN1
+i_b[1] => xor_invert[1].IN1
+i_b[1] => a_lt_b.IN1
+i_b[1] => a_gt_b.IN1
+i_b[2] => xor_invert[2].IN1
+i_b[2] => a_lt_b.IN1
+i_b[2] => a_gt_b.IN1
+i_b[3] => xor_invert[3].IN1
+i_b[3] => a_lt_b.IN1
+i_b[3] => a_gt_b.IN1
+a_gt_b <= a_gt_b.DB_MAX_OUTPUT_PORT_TYPE
+a_eq_b <= a_eq_b.DB_MAX_OUTPUT_PORT_TYPE
+a_lt_b <= a_lt_b.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|brc|unsigned_32bit_comparator:u1|unsigned_4bit_comparator_w_prev:comp_4bit_31_28
+i_a[0] => i_a[0].IN1
+i_a[1] => i_a[1].IN1
+i_a[2] => i_a[2].IN1
+i_a[3] => i_a[3].IN1
+i_b[0] => i_b[0].IN1
+i_b[1] => i_b[1].IN1
+i_b[2] => i_b[2].IN1
+i_b[3] => i_b[3].IN1
+i_a_gt_b => o_a_gt_b.IN1
+i_a_eq_b => o_a_eq_b.IN1
+i_a_lt_b => o_a_lt_b.IN1
+o_a_gt_b <= o_a_gt_b.DB_MAX_OUTPUT_PORT_TYPE
+o_a_eq_b <= o_a_eq_b.DB_MAX_OUTPUT_PORT_TYPE
+o_a_lt_b <= o_a_lt_b.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|brc|unsigned_32bit_comparator:u1|unsigned_4bit_comparator_w_prev:comp_4bit_31_28|unsigned_4bit_comparator:comp
+i_a[0] => xor_invert[0].IN0
+i_a[0] => a_gt_b.IN1
+i_a[0] => a_lt_b.IN1
+i_a[1] => xor_invert[1].IN0
+i_a[1] => a_gt_b.IN1
+i_a[1] => a_lt_b.IN1
+i_a[2] => xor_invert[2].IN0
+i_a[2] => a_gt_b.IN1
+i_a[2] => a_lt_b.IN1
+i_a[3] => xor_invert[3].IN0
+i_a[3] => a_gt_b.IN0
+i_a[3] => a_lt_b.IN0
+i_b[0] => xor_invert[0].IN1
+i_b[0] => a_lt_b.IN1
+i_b[0] => a_gt_b.IN1
+i_b[1] => xor_invert[1].IN1
+i_b[1] => a_lt_b.IN1
+i_b[1] => a_gt_b.IN1
+i_b[2] => xor_invert[2].IN1
+i_b[2] => a_lt_b.IN1
+i_b[2] => a_gt_b.IN1
+i_b[3] => xor_invert[3].IN1
+i_b[3] => a_lt_b.IN1
+i_b[3] => a_gt_b.IN1
+a_gt_b <= a_gt_b.DB_MAX_OUTPUT_PORT_TYPE
+a_eq_b <= a_eq_b.DB_MAX_OUTPUT_PORT_TYPE
+a_lt_b <= a_lt_b.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|brc|unsigned_32bit_comparator:u2
+i_a[0] => i_a[0].IN1
+i_a[1] => i_a[1].IN1
+i_a[2] => i_a[2].IN1
+i_a[3] => i_a[3].IN1
+i_a[4] => i_a[4].IN1
+i_a[5] => i_a[5].IN1
+i_a[6] => i_a[6].IN1
+i_a[7] => i_a[7].IN1
+i_a[8] => i_a[8].IN1
+i_a[9] => i_a[9].IN1
+i_a[10] => i_a[10].IN1
+i_a[11] => i_a[11].IN1
+i_a[12] => i_a[12].IN1
+i_a[13] => i_a[13].IN1
+i_a[14] => i_a[14].IN1
+i_a[15] => i_a[15].IN1
+i_a[16] => i_a[16].IN1
+i_a[17] => i_a[17].IN1
+i_a[18] => i_a[18].IN1
+i_a[19] => i_a[19].IN1
+i_a[20] => i_a[20].IN1
+i_a[21] => i_a[21].IN1
+i_a[22] => i_a[22].IN1
+i_a[23] => i_a[23].IN1
+i_a[24] => i_a[24].IN1
+i_a[25] => i_a[25].IN1
+i_a[26] => i_a[26].IN1
+i_a[27] => i_a[27].IN1
+i_a[28] => i_a[28].IN1
+i_a[29] => i_a[29].IN1
+i_a[30] => i_a[30].IN1
+i_a[31] => i_a[31].IN1
+i_b[0] => i_b[0].IN1
+i_b[1] => i_b[1].IN1
+i_b[2] => i_b[2].IN1
+i_b[3] => i_b[3].IN1
+i_b[4] => i_b[4].IN1
+i_b[5] => i_b[5].IN1
+i_b[6] => i_b[6].IN1
+i_b[7] => i_b[7].IN1
+i_b[8] => i_b[8].IN1
+i_b[9] => i_b[9].IN1
+i_b[10] => i_b[10].IN1
+i_b[11] => i_b[11].IN1
+i_b[12] => i_b[12].IN1
+i_b[13] => i_b[13].IN1
+i_b[14] => i_b[14].IN1
+i_b[15] => i_b[15].IN1
+i_b[16] => i_b[16].IN1
+i_b[17] => i_b[17].IN1
+i_b[18] => i_b[18].IN1
+i_b[19] => i_b[19].IN1
+i_b[20] => i_b[20].IN1
+i_b[21] => i_b[21].IN1
+i_b[22] => i_b[22].IN1
+i_b[23] => i_b[23].IN1
+i_b[24] => i_b[24].IN1
+i_b[25] => i_b[25].IN1
+i_b[26] => i_b[26].IN1
+i_b[27] => i_b[27].IN1
+i_b[28] => i_b[28].IN1
+i_b[29] => i_b[29].IN1
+i_b[30] => i_b[30].IN1
+i_b[31] => i_b[31].IN1
+i_a_gt_b => i_a_gt_b.IN1
+i_a_eq_b => i_a_eq_b.IN1
+i_a_lt_b => i_a_lt_b.IN1
+a_gt_b <= unsigned_4bit_comparator_w_prev:comp_4bit_31_28.o_a_gt_b
+a_eq_b <= unsigned_4bit_comparator_w_prev:comp_4bit_31_28.o_a_eq_b
+a_lt_b <= unsigned_4bit_comparator_w_prev:comp_4bit_31_28.o_a_lt_b
+
+
+|brc|unsigned_32bit_comparator:u2|unsigned_4bit_comparator_w_prev:comp_4bit_03_00
+i_a[0] => i_a[0].IN1
+i_a[1] => i_a[1].IN1
+i_a[2] => i_a[2].IN1
+i_a[3] => i_a[3].IN1
+i_b[0] => i_b[0].IN1
+i_b[1] => i_b[1].IN1
+i_b[2] => i_b[2].IN1
+i_b[3] => i_b[3].IN1
+i_a_gt_b => o_a_gt_b.IN1
+i_a_eq_b => o_a_eq_b.IN1
+i_a_lt_b => o_a_lt_b.IN1
+o_a_gt_b <= o_a_gt_b.DB_MAX_OUTPUT_PORT_TYPE
+o_a_eq_b <= o_a_eq_b.DB_MAX_OUTPUT_PORT_TYPE
+o_a_lt_b <= o_a_lt_b.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|brc|unsigned_32bit_comparator:u2|unsigned_4bit_comparator_w_prev:comp_4bit_03_00|unsigned_4bit_comparator:comp
+i_a[0] => xor_invert[0].IN0
+i_a[0] => a_gt_b.IN1
+i_a[0] => a_lt_b.IN1
+i_a[1] => xor_invert[1].IN0
+i_a[1] => a_gt_b.IN1
+i_a[1] => a_lt_b.IN1
+i_a[2] => xor_invert[2].IN0
+i_a[2] => a_gt_b.IN1
+i_a[2] => a_lt_b.IN1
+i_a[3] => xor_invert[3].IN0
+i_a[3] => a_gt_b.IN0
+i_a[3] => a_lt_b.IN0
+i_b[0] => xor_invert[0].IN1
+i_b[0] => a_lt_b.IN1
+i_b[0] => a_gt_b.IN1
+i_b[1] => xor_invert[1].IN1
+i_b[1] => a_lt_b.IN1
+i_b[1] => a_gt_b.IN1
+i_b[2] => xor_invert[2].IN1
+i_b[2] => a_lt_b.IN1
+i_b[2] => a_gt_b.IN1
+i_b[3] => xor_invert[3].IN1
+i_b[3] => a_lt_b.IN1
+i_b[3] => a_gt_b.IN1
+a_gt_b <= a_gt_b.DB_MAX_OUTPUT_PORT_TYPE
+a_eq_b <= a_eq_b.DB_MAX_OUTPUT_PORT_TYPE
+a_lt_b <= a_lt_b.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|brc|unsigned_32bit_comparator:u2|unsigned_4bit_comparator_w_prev:comp_4bit_07_04
+i_a[0] => i_a[0].IN1
+i_a[1] => i_a[1].IN1
+i_a[2] => i_a[2].IN1
+i_a[3] => i_a[3].IN1
+i_b[0] => i_b[0].IN1
+i_b[1] => i_b[1].IN1
+i_b[2] => i_b[2].IN1
+i_b[3] => i_b[3].IN1
+i_a_gt_b => o_a_gt_b.IN1
+i_a_eq_b => o_a_eq_b.IN1
+i_a_lt_b => o_a_lt_b.IN1
+o_a_gt_b <= o_a_gt_b.DB_MAX_OUTPUT_PORT_TYPE
+o_a_eq_b <= o_a_eq_b.DB_MAX_OUTPUT_PORT_TYPE
+o_a_lt_b <= o_a_lt_b.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|brc|unsigned_32bit_comparator:u2|unsigned_4bit_comparator_w_prev:comp_4bit_07_04|unsigned_4bit_comparator:comp
+i_a[0] => xor_invert[0].IN0
+i_a[0] => a_gt_b.IN1
+i_a[0] => a_lt_b.IN1
+i_a[1] => xor_invert[1].IN0
+i_a[1] => a_gt_b.IN1
+i_a[1] => a_lt_b.IN1
+i_a[2] => xor_invert[2].IN0
+i_a[2] => a_gt_b.IN1
+i_a[2] => a_lt_b.IN1
+i_a[3] => xor_invert[3].IN0
+i_a[3] => a_gt_b.IN0
+i_a[3] => a_lt_b.IN0
+i_b[0] => xor_invert[0].IN1
+i_b[0] => a_lt_b.IN1
+i_b[0] => a_gt_b.IN1
+i_b[1] => xor_invert[1].IN1
+i_b[1] => a_lt_b.IN1
+i_b[1] => a_gt_b.IN1
+i_b[2] => xor_invert[2].IN1
+i_b[2] => a_lt_b.IN1
+i_b[2] => a_gt_b.IN1
+i_b[3] => xor_invert[3].IN1
+i_b[3] => a_lt_b.IN1
+i_b[3] => a_gt_b.IN1
+a_gt_b <= a_gt_b.DB_MAX_OUTPUT_PORT_TYPE
+a_eq_b <= a_eq_b.DB_MAX_OUTPUT_PORT_TYPE
+a_lt_b <= a_lt_b.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|brc|unsigned_32bit_comparator:u2|unsigned_4bit_comparator_w_prev:comp_4bit_11_08
+i_a[0] => i_a[0].IN1
+i_a[1] => i_a[1].IN1
+i_a[2] => i_a[2].IN1
+i_a[3] => i_a[3].IN1
+i_b[0] => i_b[0].IN1
+i_b[1] => i_b[1].IN1
+i_b[2] => i_b[2].IN1
+i_b[3] => i_b[3].IN1
+i_a_gt_b => o_a_gt_b.IN1
+i_a_eq_b => o_a_eq_b.IN1
+i_a_lt_b => o_a_lt_b.IN1
+o_a_gt_b <= o_a_gt_b.DB_MAX_OUTPUT_PORT_TYPE
+o_a_eq_b <= o_a_eq_b.DB_MAX_OUTPUT_PORT_TYPE
+o_a_lt_b <= o_a_lt_b.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|brc|unsigned_32bit_comparator:u2|unsigned_4bit_comparator_w_prev:comp_4bit_11_08|unsigned_4bit_comparator:comp
+i_a[0] => xor_invert[0].IN0
+i_a[0] => a_gt_b.IN1
+i_a[0] => a_lt_b.IN1
+i_a[1] => xor_invert[1].IN0
+i_a[1] => a_gt_b.IN1
+i_a[1] => a_lt_b.IN1
+i_a[2] => xor_invert[2].IN0
+i_a[2] => a_gt_b.IN1
+i_a[2] => a_lt_b.IN1
+i_a[3] => xor_invert[3].IN0
+i_a[3] => a_gt_b.IN0
+i_a[3] => a_lt_b.IN0
+i_b[0] => xor_invert[0].IN1
+i_b[0] => a_lt_b.IN1
+i_b[0] => a_gt_b.IN1
+i_b[1] => xor_invert[1].IN1
+i_b[1] => a_lt_b.IN1
+i_b[1] => a_gt_b.IN1
+i_b[2] => xor_invert[2].IN1
+i_b[2] => a_lt_b.IN1
+i_b[2] => a_gt_b.IN1
+i_b[3] => xor_invert[3].IN1
+i_b[3] => a_lt_b.IN1
+i_b[3] => a_gt_b.IN1
+a_gt_b <= a_gt_b.DB_MAX_OUTPUT_PORT_TYPE
+a_eq_b <= a_eq_b.DB_MAX_OUTPUT_PORT_TYPE
+a_lt_b <= a_lt_b.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|brc|unsigned_32bit_comparator:u2|unsigned_4bit_comparator_w_prev:comp_4bit_15_12
+i_a[0] => i_a[0].IN1
+i_a[1] => i_a[1].IN1
+i_a[2] => i_a[2].IN1
+i_a[3] => i_a[3].IN1
+i_b[0] => i_b[0].IN1
+i_b[1] => i_b[1].IN1
+i_b[2] => i_b[2].IN1
+i_b[3] => i_b[3].IN1
+i_a_gt_b => o_a_gt_b.IN1
+i_a_eq_b => o_a_eq_b.IN1
+i_a_lt_b => o_a_lt_b.IN1
+o_a_gt_b <= o_a_gt_b.DB_MAX_OUTPUT_PORT_TYPE
+o_a_eq_b <= o_a_eq_b.DB_MAX_OUTPUT_PORT_TYPE
+o_a_lt_b <= o_a_lt_b.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|brc|unsigned_32bit_comparator:u2|unsigned_4bit_comparator_w_prev:comp_4bit_15_12|unsigned_4bit_comparator:comp
+i_a[0] => xor_invert[0].IN0
+i_a[0] => a_gt_b.IN1
+i_a[0] => a_lt_b.IN1
+i_a[1] => xor_invert[1].IN0
+i_a[1] => a_gt_b.IN1
+i_a[1] => a_lt_b.IN1
+i_a[2] => xor_invert[2].IN0
+i_a[2] => a_gt_b.IN1
+i_a[2] => a_lt_b.IN1
+i_a[3] => xor_invert[3].IN0
+i_a[3] => a_gt_b.IN0
+i_a[3] => a_lt_b.IN0
+i_b[0] => xor_invert[0].IN1
+i_b[0] => a_lt_b.IN1
+i_b[0] => a_gt_b.IN1
+i_b[1] => xor_invert[1].IN1
+i_b[1] => a_lt_b.IN1
+i_b[1] => a_gt_b.IN1
+i_b[2] => xor_invert[2].IN1
+i_b[2] => a_lt_b.IN1
+i_b[2] => a_gt_b.IN1
+i_b[3] => xor_invert[3].IN1
+i_b[3] => a_lt_b.IN1
+i_b[3] => a_gt_b.IN1
+a_gt_b <= a_gt_b.DB_MAX_OUTPUT_PORT_TYPE
+a_eq_b <= a_eq_b.DB_MAX_OUTPUT_PORT_TYPE
+a_lt_b <= a_lt_b.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|brc|unsigned_32bit_comparator:u2|unsigned_4bit_comparator_w_prev:comp_4bit_19_16
+i_a[0] => i_a[0].IN1
+i_a[1] => i_a[1].IN1
+i_a[2] => i_a[2].IN1
+i_a[3] => i_a[3].IN1
+i_b[0] => i_b[0].IN1
+i_b[1] => i_b[1].IN1
+i_b[2] => i_b[2].IN1
+i_b[3] => i_b[3].IN1
+i_a_gt_b => o_a_gt_b.IN1
+i_a_eq_b => o_a_eq_b.IN1
+i_a_lt_b => o_a_lt_b.IN1
+o_a_gt_b <= o_a_gt_b.DB_MAX_OUTPUT_PORT_TYPE
+o_a_eq_b <= o_a_eq_b.DB_MAX_OUTPUT_PORT_TYPE
+o_a_lt_b <= o_a_lt_b.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|brc|unsigned_32bit_comparator:u2|unsigned_4bit_comparator_w_prev:comp_4bit_19_16|unsigned_4bit_comparator:comp
+i_a[0] => xor_invert[0].IN0
+i_a[0] => a_gt_b.IN1
+i_a[0] => a_lt_b.IN1
+i_a[1] => xor_invert[1].IN0
+i_a[1] => a_gt_b.IN1
+i_a[1] => a_lt_b.IN1
+i_a[2] => xor_invert[2].IN0
+i_a[2] => a_gt_b.IN1
+i_a[2] => a_lt_b.IN1
+i_a[3] => xor_invert[3].IN0
+i_a[3] => a_gt_b.IN0
+i_a[3] => a_lt_b.IN0
+i_b[0] => xor_invert[0].IN1
+i_b[0] => a_lt_b.IN1
+i_b[0] => a_gt_b.IN1
+i_b[1] => xor_invert[1].IN1
+i_b[1] => a_lt_b.IN1
+i_b[1] => a_gt_b.IN1
+i_b[2] => xor_invert[2].IN1
+i_b[2] => a_lt_b.IN1
+i_b[2] => a_gt_b.IN1
+i_b[3] => xor_invert[3].IN1
+i_b[3] => a_lt_b.IN1
+i_b[3] => a_gt_b.IN1
+a_gt_b <= a_gt_b.DB_MAX_OUTPUT_PORT_TYPE
+a_eq_b <= a_eq_b.DB_MAX_OUTPUT_PORT_TYPE
+a_lt_b <= a_lt_b.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|brc|unsigned_32bit_comparator:u2|unsigned_4bit_comparator_w_prev:comp_4bit_23_20
+i_a[0] => i_a[0].IN1
+i_a[1] => i_a[1].IN1
+i_a[2] => i_a[2].IN1
+i_a[3] => i_a[3].IN1
+i_b[0] => i_b[0].IN1
+i_b[1] => i_b[1].IN1
+i_b[2] => i_b[2].IN1
+i_b[3] => i_b[3].IN1
+i_a_gt_b => o_a_gt_b.IN1
+i_a_eq_b => o_a_eq_b.IN1
+i_a_lt_b => o_a_lt_b.IN1
+o_a_gt_b <= o_a_gt_b.DB_MAX_OUTPUT_PORT_TYPE
+o_a_eq_b <= o_a_eq_b.DB_MAX_OUTPUT_PORT_TYPE
+o_a_lt_b <= o_a_lt_b.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|brc|unsigned_32bit_comparator:u2|unsigned_4bit_comparator_w_prev:comp_4bit_23_20|unsigned_4bit_comparator:comp
+i_a[0] => xor_invert[0].IN0
+i_a[0] => a_gt_b.IN1
+i_a[0] => a_lt_b.IN1
+i_a[1] => xor_invert[1].IN0
+i_a[1] => a_gt_b.IN1
+i_a[1] => a_lt_b.IN1
+i_a[2] => xor_invert[2].IN0
+i_a[2] => a_gt_b.IN1
+i_a[2] => a_lt_b.IN1
+i_a[3] => xor_invert[3].IN0
+i_a[3] => a_gt_b.IN0
+i_a[3] => a_lt_b.IN0
+i_b[0] => xor_invert[0].IN1
+i_b[0] => a_lt_b.IN1
+i_b[0] => a_gt_b.IN1
+i_b[1] => xor_invert[1].IN1
+i_b[1] => a_lt_b.IN1
+i_b[1] => a_gt_b.IN1
+i_b[2] => xor_invert[2].IN1
+i_b[2] => a_lt_b.IN1
+i_b[2] => a_gt_b.IN1
+i_b[3] => xor_invert[3].IN1
+i_b[3] => a_lt_b.IN1
+i_b[3] => a_gt_b.IN1
+a_gt_b <= a_gt_b.DB_MAX_OUTPUT_PORT_TYPE
+a_eq_b <= a_eq_b.DB_MAX_OUTPUT_PORT_TYPE
+a_lt_b <= a_lt_b.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|brc|unsigned_32bit_comparator:u2|unsigned_4bit_comparator_w_prev:comp_4bit_27_24
+i_a[0] => i_a[0].IN1
+i_a[1] => i_a[1].IN1
+i_a[2] => i_a[2].IN1
+i_a[3] => i_a[3].IN1
+i_b[0] => i_b[0].IN1
+i_b[1] => i_b[1].IN1
+i_b[2] => i_b[2].IN1
+i_b[3] => i_b[3].IN1
+i_a_gt_b => o_a_gt_b.IN1
+i_a_eq_b => o_a_eq_b.IN1
+i_a_lt_b => o_a_lt_b.IN1
+o_a_gt_b <= o_a_gt_b.DB_MAX_OUTPUT_PORT_TYPE
+o_a_eq_b <= o_a_eq_b.DB_MAX_OUTPUT_PORT_TYPE
+o_a_lt_b <= o_a_lt_b.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|brc|unsigned_32bit_comparator:u2|unsigned_4bit_comparator_w_prev:comp_4bit_27_24|unsigned_4bit_comparator:comp
+i_a[0] => xor_invert[0].IN0
+i_a[0] => a_gt_b.IN1
+i_a[0] => a_lt_b.IN1
+i_a[1] => xor_invert[1].IN0
+i_a[1] => a_gt_b.IN1
+i_a[1] => a_lt_b.IN1
+i_a[2] => xor_invert[2].IN0
+i_a[2] => a_gt_b.IN1
+i_a[2] => a_lt_b.IN1
+i_a[3] => xor_invert[3].IN0
+i_a[3] => a_gt_b.IN0
+i_a[3] => a_lt_b.IN0
+i_b[0] => xor_invert[0].IN1
+i_b[0] => a_lt_b.IN1
+i_b[0] => a_gt_b.IN1
+i_b[1] => xor_invert[1].IN1
+i_b[1] => a_lt_b.IN1
+i_b[1] => a_gt_b.IN1
+i_b[2] => xor_invert[2].IN1
+i_b[2] => a_lt_b.IN1
+i_b[2] => a_gt_b.IN1
+i_b[3] => xor_invert[3].IN1
+i_b[3] => a_lt_b.IN1
+i_b[3] => a_gt_b.IN1
+a_gt_b <= a_gt_b.DB_MAX_OUTPUT_PORT_TYPE
+a_eq_b <= a_eq_b.DB_MAX_OUTPUT_PORT_TYPE
+a_lt_b <= a_lt_b.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|brc|unsigned_32bit_comparator:u2|unsigned_4bit_comparator_w_prev:comp_4bit_31_28
+i_a[0] => i_a[0].IN1
+i_a[1] => i_a[1].IN1
+i_a[2] => i_a[2].IN1
+i_a[3] => i_a[3].IN1
+i_b[0] => i_b[0].IN1
+i_b[1] => i_b[1].IN1
+i_b[2] => i_b[2].IN1
+i_b[3] => i_b[3].IN1
+i_a_gt_b => o_a_gt_b.IN1
+i_a_eq_b => o_a_eq_b.IN1
+i_a_lt_b => o_a_lt_b.IN1
+o_a_gt_b <= o_a_gt_b.DB_MAX_OUTPUT_PORT_TYPE
+o_a_eq_b <= o_a_eq_b.DB_MAX_OUTPUT_PORT_TYPE
+o_a_lt_b <= o_a_lt_b.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|brc|unsigned_32bit_comparator:u2|unsigned_4bit_comparator_w_prev:comp_4bit_31_28|unsigned_4bit_comparator:comp
+i_a[0] => xor_invert[0].IN0
+i_a[0] => a_gt_b.IN1
+i_a[0] => a_lt_b.IN1
+i_a[1] => xor_invert[1].IN0
+i_a[1] => a_gt_b.IN1
+i_a[1] => a_lt_b.IN1
+i_a[2] => xor_invert[2].IN0
+i_a[2] => a_gt_b.IN1
+i_a[2] => a_lt_b.IN1
+i_a[3] => xor_invert[3].IN0
+i_a[3] => a_gt_b.IN0
+i_a[3] => a_lt_b.IN0
+i_b[0] => xor_invert[0].IN1
+i_b[0] => a_lt_b.IN1
+i_b[0] => a_gt_b.IN1
+i_b[1] => xor_invert[1].IN1
+i_b[1] => a_lt_b.IN1
+i_b[1] => a_gt_b.IN1
+i_b[2] => xor_invert[2].IN1
+i_b[2] => a_lt_b.IN1
+i_b[2] => a_gt_b.IN1
+i_b[3] => xor_invert[3].IN1
+i_b[3] => a_lt_b.IN1
+i_b[3] => a_gt_b.IN1
+a_gt_b <= a_gt_b.DB_MAX_OUTPUT_PORT_TYPE
+a_eq_b <= a_eq_b.DB_MAX_OUTPUT_PORT_TYPE
+a_lt_b <= a_lt_b.DB_MAX_OUTPUT_PORT_TYPE
+
+

@@ -1,0 +1,304 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\altera\13.0sp1\milestone2\00_src\1. alu\simulation\modelsim
+valu
+Z1 DXx6 sv_std 3 std 0 22 F[19LRNL:5;XmIFh[XOPn1
+Iee:XM@3ZHBY;9@71fGFXb0
+VHWCUi_VFZFiHXgfCiF`1[0
+S1
+Z2 dC:\altera\13.0sp1\milestone2\00_src\1. alu\simulation\modelsim
+w1730823778
+8C:/altera/13.0sp1/milestone2/00_src/1. alu/alu.sv
+FC:/altera/13.0sp1/milestone2/00_src/1. alu/alu.sv
+L0 1
+Z3 OV;L;10.1d;51
+r1
+31
+Z4 o-sv -work work -O0
+Z5 !s92 -sv -work work {+incdir+C:/altera/13.0sp1/milestone2/00_src/1. alu} -O0
+!i10b 1
+!s100 4Wo1jYSkMdhGfN=8W2F6`2
+!s105 alu_sv_unit
+!s85 0
+!s108 1730823951.947000
+!s107 C:/altera/13.0sp1/milestone2/00_src/1. alu/alu.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/altera/13.0sp1/milestone2/00_src/1. alu|C:/altera/13.0sp1/milestone2/00_src/1. alu/alu.sv|
+!s101 -O0
+valu_add_sub
+R1
+Il@a1ozMTT[lkCn@^Vg@8<0
+Vc:FOg5PMS^jJ2b`A5UXKH3
+Z6 !s105 alu_add_sub_sv_unit
+S1
+R2
+Z7 w1730823466
+Z8 8C:/altera/13.0sp1/milestone2/00_src/1. alu/alu_add_sub.sv
+Z9 FC:/altera/13.0sp1/milestone2/00_src/1. alu/alu_add_sub.sv
+L0 1
+R3
+r1
+31
+Z10 !s108 1730823952.042000
+Z11 !s107 C:/altera/13.0sp1/milestone2/00_src/1. alu/alu_add_sub.sv|
+Z12 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/altera/13.0sp1/milestone2/00_src/1. alu|C:/altera/13.0sp1/milestone2/00_src/1. alu/alu_add_sub.sv|
+R4
+R5
+!i10b 1
+!s100 OGMBK7SR]]YV_h=G1oh;n1
+!s85 0
+!s101 -O0
+valu_and
+R1
+!i10b 1
+!s100 >bCRP@TGTIZ@4QdBDUBcQ2
+IBSchf;Igj5:O>7Kg<Fh5f2
+VCgUAQLh^H;8jNNeAN=Ci]3
+!s105 alu_and_sv_unit
+S1
+R2
+w1730823773
+8C:/altera/13.0sp1/milestone2/00_src/1. alu/alu_and.sv
+FC:/altera/13.0sp1/milestone2/00_src/1. alu/alu_and.sv
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1730823952.552000
+!s107 C:/altera/13.0sp1/milestone2/00_src/1. alu/alu_and.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/altera/13.0sp1/milestone2/00_src/1. alu|C:/altera/13.0sp1/milestone2/00_src/1. alu/alu_and.sv|
+!s101 -O0
+R4
+R5
+valu_or
+R1
+I6_FSV]>dKS6DUIEE_7RZd2
+VoI1b5Ylk7IT>ZEmKZlgF<3
+S1
+R2
+w1730823750
+8C:/altera/13.0sp1/milestone2/00_src/1. alu/alu_or.sv
+FC:/altera/13.0sp1/milestone2/00_src/1. alu/alu_or.sv
+L0 1
+R3
+r1
+31
+R4
+R5
+!i10b 1
+!s100 38?iNagn3fIKWXU2HJ_[E3
+!s105 alu_or_sv_unit
+!s85 0
+!s108 1730823952.495000
+!s107 C:/altera/13.0sp1/milestone2/00_src/1. alu/alu_or.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/altera/13.0sp1/milestone2/00_src/1. alu|C:/altera/13.0sp1/milestone2/00_src/1. alu/alu_or.sv|
+!s101 -O0
+valu_sll
+R1
+I[c;Le:gX:oM=XA8EbNok_0
+V?GOPF^>KDd_kNWGSCPQMf2
+S1
+R2
+w1730823526
+8C:/altera/13.0sp1/milestone2/00_src/1. alu/alu_sll.sv
+FC:/altera/13.0sp1/milestone2/00_src/1. alu/alu_sll.sv
+L0 1
+R3
+r1
+31
+R4
+R5
+!i10b 1
+!s100 fAJ14UL^>TC[R9B5:Sm]83
+!s105 alu_sll_sv_unit
+!s85 0
+!s108 1730823952.132000
+!s107 C:/altera/13.0sp1/milestone2/00_src/1. alu/alu_sll.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/altera/13.0sp1/milestone2/00_src/1. alu|C:/altera/13.0sp1/milestone2/00_src/1. alu/alu_sll.sv|
+!s101 -O0
+valu_slt
+R1
+I=746UWfe787T<NH6bH9P32
+V:=KHnOaoBiTc[koI2nDnm3
+S1
+R2
+w1730823560
+8C:/altera/13.0sp1/milestone2/00_src/1. alu/alu_slt.sv
+FC:/altera/13.0sp1/milestone2/00_src/1. alu/alu_slt.sv
+L0 1
+R3
+r1
+31
+R4
+R5
+!i10b 1
+!s100 l5A8Dfe`eE>kN^HPOoOWD1
+!s105 alu_slt_sv_unit
+!s85 0
+!s108 1730823952.195000
+!s107 C:/altera/13.0sp1/milestone2/00_src/1. alu/alu_slt.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/altera/13.0sp1/milestone2/00_src/1. alu|C:/altera/13.0sp1/milestone2/00_src/1. alu/alu_slt.sv|
+!s101 -O0
+valu_sltu
+R1
+IZ<H:2VcP`3f?LF7R8nJ5k0
+V^=3`mi<6O_noX9C76[HNM2
+S1
+R2
+w1730823592
+8C:/altera/13.0sp1/milestone2/00_src/1. alu/alu_sltu.sv
+FC:/altera/13.0sp1/milestone2/00_src/1. alu/alu_sltu.sv
+L0 1
+R3
+r1
+31
+R4
+R5
+!i10b 1
+!s100 i@KeOHf];HjXZ_NdgT<5;3
+!s105 alu_sltu_sv_unit
+!s85 0
+!s108 1730823952.257000
+!s107 C:/altera/13.0sp1/milestone2/00_src/1. alu/alu_sltu.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/altera/13.0sp1/milestone2/00_src/1. alu|C:/altera/13.0sp1/milestone2/00_src/1. alu/alu_sltu.sv|
+!s101 -O0
+valu_sra
+R1
+I6U`7=DFNI`WNI<hmSSX1E0
+VaS9HCDk86CCaAikA[6n7b0
+S1
+R2
+w1730823710
+8C:/altera/13.0sp1/milestone2/00_src/1. alu/alu_sra.sv
+FC:/altera/13.0sp1/milestone2/00_src/1. alu/alu_sra.sv
+L0 1
+R3
+r1
+31
+R4
+R5
+!i10b 1
+!s100 :LAj9g;[0_an^=4cUZo9]3
+!s105 alu_sra_sv_unit
+!s85 0
+!s108 1730823952.439000
+!s107 C:/altera/13.0sp1/milestone2/00_src/1. alu/alu_sra.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/altera/13.0sp1/milestone2/00_src/1. alu|C:/altera/13.0sp1/milestone2/00_src/1. alu/alu_sra.sv|
+!s101 -O0
+valu_srl
+R1
+IgSlFXVP7MlkXkJF=fZKBk3
+V<LF]1j:?G<z_zR6Ab?k9=3
+S1
+R2
+w1730823665
+8C:/altera/13.0sp1/milestone2/00_src/1. alu/alu_srl.sv
+FC:/altera/13.0sp1/milestone2/00_src/1. alu/alu_srl.sv
+L0 1
+R3
+r1
+31
+R4
+R5
+!i10b 1
+!s100 Xkk4EfQ;jlUY5dKdkgodM2
+!s105 alu_srl_sv_unit
+!s85 0
+!s108 1730823952.382000
+!s107 C:/altera/13.0sp1/milestone2/00_src/1. alu/alu_srl.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/altera/13.0sp1/milestone2/00_src/1. alu|C:/altera/13.0sp1/milestone2/00_src/1. alu/alu_srl.sv|
+!s101 -O0
+valu_xor
+R1
+IgAeQ^d`Xhn][o3=I_AZ4k1
+V=5TH6U9YOHTdeg7V>:M=43
+S1
+R2
+w1730823637
+8C:/altera/13.0sp1/milestone2/00_src/1. alu/alu_xor.sv
+FC:/altera/13.0sp1/milestone2/00_src/1. alu/alu_xor.sv
+L0 1
+R3
+r1
+31
+R4
+R5
+!i10b 1
+!s100 A`d2fZcWZ3Y02Li?l<SUb3
+!s105 alu_xor_sv_unit
+!s85 0
+!s108 1730823952.319000
+!s107 C:/altera/13.0sp1/milestone2/00_src/1. alu/alu_xor.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/altera/13.0sp1/milestone2/00_src/1. alu|C:/altera/13.0sp1/milestone2/00_src/1. alu/alu_xor.sv|
+!s101 -O0
+vfull_adder_1bit
+R1
+I;S3k^B3G9nNlBDLF3XXek3
+VVXhlSI[d:SnU<7DBUX;;d3
+R6
+S1
+R2
+R7
+R8
+R9
+L0 20
+R3
+r1
+31
+R10
+R11
+R12
+R4
+R5
+!i10b 1
+!s100 =fQkJUYM6[C6mhVg<FA5G0
+!s85 0
+!s101 -O0
+vfull_adder_32bit
+R1
+IZ`P[Fc]cSb0ezjS:iU9:^2
+VSWL9QzX]<PdTUzITHm7UY2
+R6
+S1
+R2
+R7
+R8
+R9
+L0 55
+R3
+r1
+31
+R10
+R11
+R12
+R4
+R5
+!i10b 1
+!s100 lQebgThzH_0kSZ?G:07f60
+!s85 0
+!s101 -O0
+vfull_adder_8bit
+R1
+INoj<[o<O2V<^G6<1aJ>1Q1
+V?2S0KB98`Amkm2QiSnTza3
+R6
+S1
+R2
+R7
+R8
+R9
+L0 34
+R3
+r1
+31
+R10
+R11
+R12
+R4
+R5
+!i10b 1
+!s100 FaSDeU`[b0bEh;gFQjg>Z1
+!s85 0
+!s101 -O0

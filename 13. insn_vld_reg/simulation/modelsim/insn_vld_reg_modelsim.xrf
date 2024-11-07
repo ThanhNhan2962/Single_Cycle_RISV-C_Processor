@@ -1,0 +1,10 @@
+vendor_name = ModelSim
+source_file = 1, C:/altera/13.0sp1/milestone2/00_src/13. insn_vld_reg/insn_vld_reg.sv
+source_file = 1, C:/altera/13.0sp1/milestone2/00_src/13. insn_vld_reg/db/insn_vld_reg.cbx.xml
+design_name = insn_vld_reg
+instance = comp, \i_rst~I , i_rst, insn_vld_reg, 1
+instance = comp, \i_clk~I , i_clk, insn_vld_reg, 1
+instance = comp, \i_insn_vld~I , i_insn_vld, insn_vld_reg, 1
+instance = comp, \o_insn_vld~0 , o_insn_vld~0, insn_vld_reg, 1
+instance = comp, \o_insn_vld~reg0 , o_insn_vld~reg0, insn_vld_reg, 1
+instance = comp, \o_insn_vld~I , o_insn_vld, insn_vld_reg, 1
